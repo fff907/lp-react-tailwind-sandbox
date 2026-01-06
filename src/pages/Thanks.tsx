@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export default function Thanks() {
   return (
     <main className="min-h-screen flex items-center justify-center px-4 bg-gray-100 text-gray-900">
@@ -10,12 +12,12 @@ export default function Thanks() {
           担当者よりあらためてご連絡いたしますので、今しばらくお待ちください。
         </p>
 
-        <a
-          href="/"
+        <Link
+          to="/"
           className="inline-flex items-center justify-center px-6 py-3 rounded-md bg-[#4A7CD8] text-white text-sm font-semibold hover:bg-[#365fab]"
         >
           トップページに戻る
-        </a>
+        </Link>
       </div>
     </main>
   );
