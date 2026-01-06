@@ -34,7 +34,7 @@ export default function Home() {
 
           <div className="mt-8 flex justify-center">
             <img
-              src="/img/antenna-car-hero.png"
+              src={`${import.meta.env.BASE_URL}img/antenna-car-hero.png`}
               alt="災害時に活躍する簡易衛星通信車"
               className="w-[260px] xs:w-[280px] sm:w-[320px] h-auto drop-shadow-xl"
             />
@@ -73,7 +73,7 @@ export default function Home() {
 
           <div className="absolute inset-x-0 flex justify-center z-20 bottom-16 lg:bottom-20 xl:bottom-24 2xl:bottom-28">
             <img
-              src="/img/antenna-car-hero.png"
+              src={`${import.meta.env.BASE_URL}img/antenna-car-hero.png`}
               alt="災害時に活躍する簡易衛星通信車"
               className="w-[420px] lg:w-[520px] xl:w-[560px] 2xl:w-[600px] h-auto drop-shadow-xl"
             />
@@ -149,7 +149,7 @@ export default function Home() {
               </div>
 
               <img
-                src="/img/problem-highcost.png"
+                src={`${import.meta.env.BASE_URL}img/problem-highcost.png`}
                 alt="コストの悩み"
                 className="mt-6 md:mt-8 h-[100px] md:h-[145px] object-contain select-none"
               />
@@ -166,7 +166,7 @@ export default function Home() {
               </div>
 
               <img
-                src="/img/problem-delivery.png"
+                src={`${import.meta.env.BASE_URL}img/problem-delivery.png`}
                 alt="映像を届けたい悩み"
                 className="mt-6 md:mt-8 h-[100px] md:h-[145px] object-contain select-none"
               />
@@ -185,7 +185,7 @@ export default function Home() {
               </div>
 
               <img
-                src="/img/problem-dxstart.png"
+                src={`${import.meta.env.BASE_URL}img/problem-dxstart.png`}
                 alt="DX対応の悩み"
                 className="mt-6 md:mt-8 h-[100px] md:h-[145px] object-contain select-none"
               />
@@ -234,7 +234,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row md:items-start gap-6 md:gap-10">
               <div className="shrink-0 flex justify-center md:justify-start">
                 <img
-                  src="/img/service-satellite.png"
+                  src={`${import.meta.env.BASE_URL}img/service-satellite.png`}
                   alt="衛星通信イメージ"
                   className="w-[120px] md:w-[140px] h-auto select-none"
                 />
@@ -260,7 +260,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row md:items-start gap-6 md:gap-10">
               <div className="shrink-0 flex justify-center md:justify-start">
                 <img
-                  src="/img/service-van.png"
+                  src={`${import.meta.env.BASE_URL}img/service-van.png`}
                   alt="通信車イメージ"
                   className="w-[120px] md:w-[140px] h-auto select-none"
                 />
@@ -286,7 +286,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row md:items-start gap-6 md:gap-10">
               <div className="shrink-0 flex justify-center md:justify-start">
                 <img
-                  src="/img/service-cost.png"
+                  src={`${import.meta.env.BASE_URL}img/service-cost.png`}
                   alt="コスト削減イメージ"
                   className="w-[120px] md:w-[140px] h-auto select-none"
                 />
@@ -315,8 +315,7 @@ export default function Home() {
       </section>
 
       {/* 料金 */}
-      {/* ※ここ（pricing）は長いので、あなたが貼った内容そのまま移植済みですが、文字数上限に近いので
-         もし表示が崩れたら「pricingだけ分割して」次メッセージで貼り直します。 */}
+      
       {/* --- Pricing start --- */}
       <section id="pricing" className="bg-white text-gray-900">
         <div className="mx-auto max-w-[1280px] px-6 min-[1220px]:px-[155px] py-[60px] min-[1220px]:py-[80px]">
