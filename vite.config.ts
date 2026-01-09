@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-export default defineConfig(({ command }) => ({
-  base: command === 'build' ? '/lp-react-tailwind-sandbox/' : '/',
+export default defineConfig({
   plugins: [react()],
-}));
+  base: '/',
+});
