@@ -25,9 +25,10 @@ export default function Footer() {
         </div>
 
         <div className="mt-2 pb-2 text-[11px] sm:text-xs md:text-sm text-center">
-          <p>© 2025 スカイネットワーク株式会社</p>
+          <p>© 2026 スカイネットワーク株式会社</p>
         </div>
       </div>
     </footer>
   );
 }
+
