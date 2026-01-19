@@ -34,7 +34,7 @@ export default function Home() {
 
           <div className="mt-8 flex justify-center">
             <img
-              src={`${import.meta.env.BASE_URL}img/antenna-car-hero.png`}
+              src="/img/antenna-car-hero.png"
               alt="災害時に活躍する簡易衛星通信車"
               className="w-[260px] xs:w-[280px] sm:w-[320px] h-auto drop-shadow-xl"
             />
@@ -73,7 +73,7 @@ export default function Home() {
 
           <div className="absolute inset-x-0 flex justify-center z-20 bottom-16 lg:bottom-20 xl:bottom-24 2xl:bottom-28">
             <img
-              src={`${import.meta.env.BASE_URL}img/antenna-car-hero.png`}
+              src="/img/antenna-car-hero.png"
               alt="災害時に活躍する簡易衛星通信車"
               className="w-[420px] lg:w-[520px] xl:w-[560px] 2xl:w-[600px] h-auto drop-shadow-xl"
             />
@@ -149,7 +149,7 @@ export default function Home() {
               </div>
 
               <img
-                src={`${import.meta.env.BASE_URL}img/problem-highcost.png`}
+                src="/img/problem-highcost.png"
                 alt="コストの悩み"
                 className="mt-6 md:mt-8 h-[100px] md:h-[145px] object-contain select-none"
               />
@@ -166,7 +166,7 @@ export default function Home() {
               </div>
 
               <img
-                src={`${import.meta.env.BASE_URL}img/problem-delivery.png`}
+                src="/img/problem-delivery.png"
                 alt="映像を届けたい悩み"
                 className="mt-6 md:mt-8 h-[100px] md:h-[145px] object-contain select-none"
               />
@@ -185,7 +185,7 @@ export default function Home() {
               </div>
 
               <img
-                src={`${import.meta.env.BASE_URL}img/problem-dxstart.png`}
+                src="/img/problem-dxstart.png"
                 alt="DX対応の悩み"
                 className="mt-6 md:mt-8 h-[100px] md:h-[145px] object-contain select-none"
               />
@@ -234,7 +234,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row md:items-start gap-6 md:gap-10">
               <div className="shrink-0 flex justify-center md:justify-start">
                 <img
-                  src={`${import.meta.env.BASE_URL}img/service-satellite.png`}
+                  src="/img/service-satellite.png"
                   alt="衛星通信イメージ"
                   className="w-[120px] md:w-[140px] h-auto select-none"
                 />
@@ -260,7 +260,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row md:items-start gap-6 md:gap-10">
               <div className="shrink-0 flex justify-center md:justify-start">
                 <img
-                  src={`${import.meta.env.BASE_URL}img/service-van.png`}
+                  src="/img/service-van.png"
                   alt="通信車イメージ"
                   className="w-[120px] md:w-[140px] h-auto select-none"
                 />
@@ -286,7 +286,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row md:items-start gap-6 md:gap-10">
               <div className="shrink-0 flex justify-center md:justify-start">
                 <img
-                  src={`${import.meta.env.BASE_URL}img/service-cost.png`}
+                  src="/img/service-cost.png"
                   alt="コスト削減イメージ"
                   className="w-[120px] md:w-[140px] h-auto select-none"
                 />
@@ -314,9 +314,155 @@ export default function Home() {
         </div>
       </section>
 
+      {/* レンタル機器構成 */}
+      <section
+        id="rental"
+        className="text-gray-900"
+        style={{
+          backgroundColor: '#F6F6F6',
+          backgroundImage:
+            'repeating-linear-gradient(135deg, rgba(0,0,0,0.035) 0px, rgba(0,0,0,0.035) 8px, rgba(0,0,0,0) 8px, rgba(0,0,0,0) 16px)',
+        }}
+      >
+        <div className="mx-auto max-w-[1280px] px-6 md:px-10 py-[60px]">
+          <div className="text-center md:text-left">
+            <h2 className="inline-block font-semibold text-[#333] leading-snug text-[22px] md:text-[30px]">
+              レンタル機器構成
+            </h2>
+            <div className="mt-5 h-[5px] w-[260px] md:w-[426px] bg-[#333] mx-auto md:mx-0" />
+          </div>
+
+          <p className="mt-6 font-semibold text-[#333] leading-relaxed text-[14px] md:text-[20px]">
+            現場到着後すぐに運用できるよう、必要機材をワンセットでご提供します。
+            <br className="hidden md:block" />
+            構成は現場条件に応じて最適化します。
+          </p>
+
+          <div className="mt-10 grid gap-6 md:gap-8 md:grid-cols-2">
+            {/* (1) ウェアラブル */}
+            <article className="relative overflow-hidden rounded-2xl bg-white px-6 py-6 shadow-sm border border-black/5">
+              <img
+                src="/img/rental-wearable.png"
+                alt=""
+                aria-hidden="true"
+                className="pointer-events-none select-none absolute right-4 top-4 w-16 md:w-20 opacity-[0.22]"
+              />
+              <div className="flex items-start gap-3">
+                <div className="mt-1 mr-0 h-8 w-[4px] md:h-[40px] md:w-[10px] bg-[#4A7CD8]" />
+                <div className="flex-1">
+                  <h3 className="font-bold text-[#0E2B64] leading-snug text-[16px] md:text-[22px]">
+                    (1) ウェアラブルカメラ
+                  </h3>
+                  <div className="mt-4 flex flex-wrap gap-2">
+                    <span className="inline-flex items-center rounded-full bg-[#F3F4F6] px-3 py-1 text-[12px] md:text-[13px] font-semibold text-[#374151]">
+                      Bluetoothヘッドセット
+                    </span>
+                    <span className="inline-flex items-center rounded-full bg-[#F3F4F6] px-3 py-1 text-[12px] md:text-[13px] font-semibold text-[#374151]">
+                      クラウドサーバーサービス
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            {/* (2) バッテリー */}
+            <article className="relative overflow-hidden rounded-2xl bg-white px-6 py-6 shadow-sm border border-black/5">
+              <img
+                src="/img/rental-battery.png"
+                alt=""
+                aria-hidden="true"
+                className="pointer-events-none select-none absolute right-4 top-4 w-16 md:w-20 opacity-[0.22]"
+              />
+              <div className="flex items-start gap-3">
+                <div className="mt-1 h-8 w-[4px] md:h-[40px] md:w-[10px] bg-[#4A7CD8]" />
+                <div className="flex-1">
+                  <h3 className="font-bold text-[#0E2B64] leading-snug text-[16px] md:text-[22px]">
+                    (2) バッテリー
+                  </h3>
+                  <p className="mt-3 font-semibold text-[#333] text-[13px] md:text-[16px] leading-relaxed">
+                    容量：
+                    <span className="inline-block px-2 py-1 rounded bg-[#F3F4F6]">
+                      768Wh
+                    </span>{' '}
+                    ＋{' '}
+                    <span className="inline-block px-2 py-1 rounded bg-[#F3F4F6]">
+                      256Wh
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            {/* (3) IP電話 */}
+            <article className="relative overflow-hidden rounded-2xl bg-white px-6 py-6 shadow-sm border border-black/5">
+              <img
+                src="/img/rental-ipphone.png"
+                alt=""
+                aria-hidden="true"
+                className="pointer-events-none select-none absolute right-4 top-4 w-16 md:w-20 opacity-[0.22]"
+              />
+              <div className="flex items-start gap-3">
+                <div className="mt-1 h-8 w-[4px] md:h-[40px] md:w-[10px] bg-[#4A7CD8]" />
+                <div className="flex-1">
+                  <h3 className="font-bold text-[#0E2B64] leading-snug text-[16px] md:text-[22px]">
+                    (3) IP電話機
+                  </h3>
+                </div>
+              </div>
+            </article>
+
+            {/* (4) Wi-Fi */}
+            <article className="relative overflow-hidden rounded-2xl bg-white px-6 py-6 shadow-sm border border-black/5">
+              <img
+                src="/img/rental-wifi.png"
+                alt=""
+                aria-hidden="true"
+                className="pointer-events-none select-none absolute right-4 top-4 w-16 md:w-20 opacity-[0.22]"
+              />
+              <div className="flex items-start gap-3">
+                <div className="mt-1 h-8 w-[4px] md:h-[40px] md:w-[10px] bg-[#4A7CD8]" />
+                <div className="flex-1">
+                  <h3 className="font-bold text-[#0E2B64] leading-snug text-[16px] md:text-[22px]">
+                    (4) Wi-Fi
+                  </h3>
+                  <p className="mt-3 font-semibold text-[#333] text-[13px] md:text-[16px] leading-relaxed">
+                    屋外用 無線LANアクセスポイント
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            {/* (5) 衛星回線 */}
+            <article className="relative overflow-hidden rounded-2xl bg-white px-6 py-6 shadow-sm border border-black/5">
+              <img
+                src="/img/rental-satellite.png"
+                alt=""
+                aria-hidden="true"
+                className="pointer-events-none select-none absolute right-4 top-4 w-16 md:w-20 opacity-[0.22]"
+              />
+              <div className="flex items-start gap-3">
+                <div className="mt-1 h-8 w-[4px] md:h-[40px] md:w-[10px] bg-[#4A7CD8]" />
+                <div className="flex-1">
+                  <h3 className="font-bold text-[#0E2B64] leading-snug text-[16px] md:text-[22px]">
+                    (5) 衛星回線
+                  </h3>
+                  <p className="mt-3 font-semibold text-[#333] text-[13px] md:text-[16px] leading-relaxed">
+                    スカパーJSAT Exbirdサービス
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div className="mt-8 text-[#555] text-[12px] md:text-[14px] leading-relaxed space-y-2">
+            <p>
+              ※構成は現場条件（電源・設置スペース・用途など）により変更となる場合があります。
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* 料金 */}
-      
-      {/* --- Pricing start --- */}
       <section id="pricing" className="bg-white text-gray-900">
         <div className="mx-auto max-w-[1280px] px-6 min-[1220px]:px-[155px] py-[60px] min-[1220px]:py-[80px]">
           <div className="text-center">
@@ -464,7 +610,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* --- Pricing end --- */}
 
       {/* 問い合わせ */}
       <section
