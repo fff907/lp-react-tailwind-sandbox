@@ -345,7 +345,7 @@ export default function Home() {
                 src="/img/rental-wearable.png"
                 alt=""
                 aria-hidden="true"
-                className="pointer-events-none select-none absolute right-4 top-4 w-16 md:w-20 opacity-[0.22]"
+                className="pointer-events-none select-none absolute right-4 top-4 w-16 md:w-20 opacity-[0.26]"
               />
               <div className="flex items-start gap-3">
                 <div className="mt-1 mr-0 h-8 w-[4px] md:h-[40px] md:w-[10px] bg-[#4A7CD8]" />
@@ -371,7 +371,7 @@ export default function Home() {
                 src="/img/rental-battery.png"
                 alt=""
                 aria-hidden="true"
-                className="pointer-events-none select-none absolute right-4 top-4 w-16 md:w-20 opacity-[0.22]"
+                className="pointer-events-none select-none absolute right-4 top-4 w-16 md:w-20 opacity-[0.26]"
               />
               <div className="flex items-start gap-3">
                 <div className="mt-1 h-8 w-[4px] md:h-[40px] md:w-[10px] bg-[#4A7CD8]" />
@@ -399,7 +399,7 @@ export default function Home() {
                 src="/img/rental-ipphone.png"
                 alt=""
                 aria-hidden="true"
-                className="pointer-events-none select-none absolute right-4 top-4 w-16 md:w-20 opacity-[0.22]"
+                className="pointer-events-none select-none absolute right-4 top-4 w-16 md:w-20 opacity-[0.26]"
               />
               <div className="flex items-start gap-3">
                 <div className="mt-1 h-8 w-[4px] md:h-[40px] md:w-[10px] bg-[#4A7CD8]" />
@@ -417,7 +417,7 @@ export default function Home() {
                 src="/img/rental-wifi.png"
                 alt=""
                 aria-hidden="true"
-                className="pointer-events-none select-none absolute right-4 top-4 w-16 md:w-20 opacity-[0.22]"
+                className="pointer-events-none select-none absolute right-4 top-4 w-16 md:w-20 opacity-[0.26]"
               />
               <div className="flex items-start gap-3">
                 <div className="mt-1 h-8 w-[4px] md:h-[40px] md:w-[10px] bg-[#4A7CD8]" />
@@ -438,7 +438,7 @@ export default function Home() {
                 src="/img/rental-satellite.png"
                 alt=""
                 aria-hidden="true"
-                className="pointer-events-none select-none absolute right-4 top-4 w-16 md:w-20 opacity-[0.22]"
+                className="pointer-events-none select-none absolute right-4 top-4 w-16 md:w-20 opacity-[0.26]"
               />
               <div className="flex items-start gap-3">
                 <div className="mt-1 h-8 w-[4px] md:h-[40px] md:w-[10px] bg-[#4A7CD8]" />
