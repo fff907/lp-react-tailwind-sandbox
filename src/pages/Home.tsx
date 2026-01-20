@@ -426,7 +426,7 @@ export default function Home() {
                     (4) Wi-Fi
                   </h3>
                   <p className="mt-3 font-semibold text-[#333] text-[13px] md:text-[16px] leading-relaxed">
-                    屋外用 無線LANアクセスポイント
+                    無線LANアクセスポイント
                   </p>
                 </div>
               </div>
@@ -604,9 +604,9 @@ export default function Home() {
                   ※料金は税別表示です。設備や出張費が別途発生する場合があります。
                 </p>
                 <p>※交通費は含まれておりません。</p>
-                <p>※オペレーターの派遣に係る交通費は別途となります。</p>
               </div>
             </div>
+            
           </div>
         </div>
       </section>
