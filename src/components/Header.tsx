@@ -189,15 +189,6 @@ export default function Header({ mode = 'auto' }: HeaderProps) {
               料金
             </button>
           </li>
-          <li>
-            <button
-              type="button"
-              onClick={() => goSection('#contact')}
-              className="block w-full text-left px-3 py-2 md:px-0 md:py-0 text-[16px] md:text-[18px] font-bold hover:opacity-80"
-            >
-              お問い合わせ
-            </button>
-          </li>
         </ul>
       </nav>
     </header>
