@@ -620,15 +620,16 @@ export default function Home() {
           今すぐ衛星通信車を手配
         </h2>
 
-        <Link
-          to="/request"
+       <a
+          href="https://www.skynetwork.jp/index.php/contact/"
           className="group relative z-10 inline-flex h-12 md:h-14 items-center justify-center overflow-hidden
                   rounded-md md:rounded-lg bg-red-600 px-7 md:px-12 font-semibold
                   text-white text-base md:text-lg shadow md:shadow-lg transition
                   hover:scale-[1.03] hover:bg-red-700 active:bg-red-800
                   focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-red-300"
         >
-          <span>今すぐ依頼する</span>
+          <span className="relative z-10">今すぐ依頼する</span>
+        
           <div
             className="pointer-events-none absolute inset-0 z-0 flex h-full w-full justify-center
                       [transform:skew(-12deg)_translateX(-100%)]
@@ -636,7 +637,7 @@ export default function Home() {
           >
             <div className="relative h-full w-8 bg-white/20" />
           </div>
-        </Link>
+        </a>
       </section>
 
       <Footer />
