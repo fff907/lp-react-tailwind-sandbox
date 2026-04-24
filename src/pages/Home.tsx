@@ -621,7 +621,7 @@ export default function Home() {
         </h2>
 
        <a
-          href="https://www.skynetwork.jp/index.php/contact/"
+          href="https://www.skynetwork.jp/index.php/contact/?service=sat"
           className="group relative z-10 inline-flex h-12 md:h-14 items-center justify-center overflow-hidden
                   rounded-md md:rounded-lg bg-red-600 px-7 md:px-12 font-semibold
                   text-white text-base md:text-lg shadow md:shadow-lg transition
